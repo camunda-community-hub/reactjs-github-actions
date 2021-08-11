@@ -18,13 +18,21 @@
   },
   "homepage": "https://github.com/camunda-community-hub/reactjs-github-actions#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "codecov": "^3.8.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/plugin-dynamic-import-node": "^2.3.3",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/plugin-dynamic-import-node": "^2.3.3",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.14.5",
     "babel-jest": "^27.0.6",
