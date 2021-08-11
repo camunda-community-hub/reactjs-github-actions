@@ -1,4 +1,4 @@
 {
-    "presets": ["react-app"],
-    "plugins": ["dynamic-import-node"]
+    "presets": ["react-app", "@babel/env", { "modules": false }],
+    "plugins": ["dynamic-import-node", "add-module-exports"]
   }
