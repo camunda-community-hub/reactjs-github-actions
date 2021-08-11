@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/camunda-community-hub/reactjs-github-actions#readme",
   "dependencies": {
-    "codecov": "^3.8.3"
+    "codecov": "^3.8.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0"
   }
 }
