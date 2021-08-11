@@ -4,7 +4,7 @@
 const config = {
     verbose: true,
   };
-  
+  transformIgnorePatterns: ["/node_modules/(?!vue-awesome)"],
   module.exports = config;
   
   // Or async function
