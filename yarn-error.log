@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/16.6.1/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js add -D babel-plugin-add-module-exports
+  /usr/local/Cellar/node/16.6.1/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js add babel-plugin-dynamic-import-node
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@babel%2fplugin-dynamic-import-node: Not found
+  Error: https://registry.npmjs.com/@babel%2fplugin-dynamic-import-node: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:66992:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:140763:22)
       at Request.emit (node:events:394:28)
@@ -52,6 +52,7 @@ npm manifest:
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
       "@babel/plugin-transform-react-jsx": "^7.10.4",
+      "@babel/plugin-dynamic-import-node": "^2.3.3",
       "@babel/preset-env": "^7.11.0",
       "@babel/preset-react": "^7.14.5",
       "babel-jest": "^27.0.6",
