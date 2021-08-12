@@ -8,7 +8,8 @@
         "throwIfNamespace": false, // defaults to true
         "runtime": "classic", // defaults to classic
         // "importSource": "custom-jsx-library" // defaults to react (only in automatic runtime)
-        "plugins": ["dynamic-import-node"]
+        "plugins": ["dynamic-import-node"],
+   
       }
     ]
   ]
