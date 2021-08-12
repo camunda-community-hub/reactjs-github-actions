@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "react-scripts test --env=jsdom --coverage --ci --reporters=default",
-    "test:ci": "npm run test -- --coverage --ci --testResultsProcessor ./node_modules/jest-junit",
-    "lint": "eslint .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "'mocha 'test/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
     "eject": "react-scripts eject"
-  },
+},
   "files": [
     "jest/setup.js"
   ],
