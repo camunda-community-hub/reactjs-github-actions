@@ -10,26 +10,6 @@
     "lint": "eslint .",
     "eject": "react-scripts eject"
   },
-  "files": [
-    "jest/setup.js"
-  ],
-  "jest": {
-    "watchPathIgnorePatterns": [
-      ".*\\.testcases\\.js" ],
-    "preset": "react-native",
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
-    },
-    "setupFiles": [
-      "./jest/setup.js"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|react-navigation-stack|@react-native-community|react-native-gesture-handler|react-navigation|@react-navigation/.*)"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/camunda-community-hub/reactjs-github-actions.git"
