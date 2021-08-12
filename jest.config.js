@@ -4,7 +4,7 @@ module.exports = {
     "transformIgnorePatterns": [
         "node_modules/(?!(@react-native|react-native)/)",
       ]
-    ,
+    
   }
 "transform"; {
     "^.+\\.tsx?$"; 
@@ -18,4 +18,3 @@ module.exports = {
     "json",
     "node"
 ]}
-preset: "react-native"

@@ -13,6 +13,22 @@
     "react-scripts": "4.0.3",
     "web-vitals": "1.1.2"
   },
+  "files": [
+    "jest/setup.js"
+  ],
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "setupFiles": ["./jest/setup.js"],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation-stack|@react-native-community|react-native-gesture-handler|react-navigation|@react-navigation/.*)"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
