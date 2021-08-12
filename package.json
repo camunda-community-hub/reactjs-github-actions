@@ -15,7 +15,9 @@
   ],
   "jest": {
     "watchPathIgnorePatterns": [
-      ".*\\.testcases\\.js" ]
+      ".*\\.testcases\\.js" ],
+      "transform": {
+        "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/test.js"
   },
   "repository": {
     "type": "git",
@@ -51,4 +53,4 @@
     "@testing-library/react": "^9.5.0",
     "babel-jest": "^26.6.3"
   }
-}
+}}

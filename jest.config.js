@@ -8,6 +8,7 @@ const createJestConfig = require('react-scripts/scripts/utils/createJestConfig')
 
 module.exports = createJestConfig(
   relativePath => require.resolve(path.join('react-scripts', relativePath)),
-  __dirname, // given that Jest config is in project root
+  roots) ['<../>/src'],
+  modulePaths; ['<../>/src'],
+  "rootDir"; "../"
   false
-);
