@@ -1,6 +1,7 @@
 "modulePaths"; [
     "<rootDir>"
   ],
+testEnvironment; 'jsdom'
 module.exports = {
     preset: 'react-native',
     transform: {
