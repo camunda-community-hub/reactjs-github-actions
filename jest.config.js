@@ -7,17 +7,15 @@ module.exports = {
         + "|react-native-splash-screen"
         + "|react-native-screens"
         + "|react-native-reanimated"
-        + "|react-native"
-        + "|jest-runtime"
       + ")/)",
     ],
   }
-  "testEnvironment"; "node",
-"transformIgnorePatterns"; ['/node_modules/(?!${jest-runtime})', '/node_modules/(?!${react-native})']
-// transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
 "transform"; {
-    "^.+\\.tsx?$"; "ts-jest",
-    "^.+\\.(js|jsx|mjs)?$"; "babel-jest";
+    "^.+\\.tsx?$"; 
+    "^.+\\.(js|jsx|mjs)?$"; 
+    "^.+\\.ts-jest";
+    "^.+\\.react-native";
+    "^.+\\jest-runtime";
 "moduleFileExtensions"; [
     "ts",
     "tsx",
