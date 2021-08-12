@@ -10,3 +10,17 @@ module.exports = {
       + ")/)",
     ],
   }
+  "testEnvironment"; "node",
+"transformIgnorePatterns"; ["/node_modules/"],
+// transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
+"transform"; {
+    "^.+\\.tsx?$"; "ts-jest",
+    "^.+\\.(js|jsx|mjs)?$"; "babel-jest"
+"moduleFileExtensions"; [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+]}
