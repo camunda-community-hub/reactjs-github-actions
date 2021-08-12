@@ -7,14 +7,13 @@ module.exports = {
         + "|react-native-screens"
         + "|react-native-reanimated"
       + ")/)",
+      + "react-native",
     ],
   }
 "transform"; {
     "^.+\\.tsx?$"; 
     "^.+\\.(js|jsx|mjs)?$"; 
     "^.+\\.ts-jest";
-    "^.+\\.react-native";
-    "^.+\\jest-runtime";
 "moduleFileExtensions"; [
     "ts",
     "tsx",
@@ -23,3 +22,5 @@ module.exports = {
     "json",
     "node"
 ]}
+preset: "react-native",
+setupFilesAfterEnv; ["@testing-library/jest-native/extend-expect"]
