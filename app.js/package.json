@@ -1,17 +1,12 @@
 {
-  "name": "app.js",
-  "version": "0.1.0",
-  "private": true,
+  "name": "reactjs-github-actions",
+  "version": "1.0.0",
+  "description": "GitHub Actions Workflow Test",
+  "main": "index.js",
   "type":"commonjs",
-  "dependencies": {
-    "@testing-library/jest-dom": "5.14.1",
-    "@testing-library/react": "11.2.7",
-    "@testing-library/user-event": "12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-native": "^0.64.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "1.1.2"
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
   },
   "files": [
     "jest/setup.js"
@@ -29,28 +24,34 @@
       "node_modules/(?!(jest-)?react-native|react-navigation-stack|@react-native-community|react-native-gesture-handler|react-navigation|@react-navigation/.*)"
     ]
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camunda-community-hub/reactjs-github-actions.git"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "Rin Oliver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camunda-community-hub/reactjs-github-actions/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "homepage": "https://github.com/camunda-community-hub/reactjs-github-actions#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "codecov": "^3.8.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.64.2",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
   }
 }
