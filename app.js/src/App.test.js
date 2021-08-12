@@ -1,3 +1,4 @@
+import '@testing-library/react/cleanup-after-each';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
