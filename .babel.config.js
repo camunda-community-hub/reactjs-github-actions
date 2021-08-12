@@ -1,4 +1,4 @@
 {
-    "presets"; ["react-app", "@babel/env", "@babel/react"],
+    "presets"; ["react-app", "babel/preset-env", "@babel/react", "@babel/preset-flow"],
     "plugins"; ["dynamic-import-node", "add-module-exports"]
   }
