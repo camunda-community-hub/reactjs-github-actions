@@ -10,6 +10,13 @@
     "lint": "eslint .",
     "eject": "react-scripts eject"
   },
+  "files": [
+    "jest/setup.js"
+  ],
+  "jest": {
+    "watchPathIgnorePatterns": [
+      ".*\\.testcases\\.js" ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/camunda-community-hub/reactjs-github-actions.git"
