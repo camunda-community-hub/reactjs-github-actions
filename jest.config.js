@@ -6,8 +6,9 @@ module.exports = {
         + "|react-native-splash-screen"
         + "|react-native-screens"
         + "|react-native-reanimated"
-      + ")/)",
-      + "react-native",
+      + ")/)"
+      + "|react-native"
+      + "|node-modules"
     ],
   }
 "transform"; {
@@ -22,5 +23,4 @@ module.exports = {
     "json",
     "node"
 ]}
-preset: "react-native",
-setupFilesAfterEnv; ["@testing-library/jest-native/extend-expect"]
+preset: "react-native"
