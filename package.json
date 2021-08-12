@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "jsdom",
+    "test": "react-scripts test --env=jsdom --coverage",
     "lint": "eslint ."
   },
   "files": [
