@@ -7,8 +7,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha test.js --reporter mocha-junit-reporter --timeout 60000 --exit",
-    "eject": "react-scripts eject"
+    "test": "mocha test.js --reporter mocha-junit-reporter --timeout 60000 --exit"
   },
   "files": [
     "jest/setup.js"
