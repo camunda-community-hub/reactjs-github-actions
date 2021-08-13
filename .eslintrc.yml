@@ -10,13 +10,9 @@ parserOptions:
   sourceType: module
   ecmaFeatures: jsx true
 
-extends: 
-   plugin: 
-    - react/recommended
-    - google 
-
 plugins: 
   - react
+  - google 
 
 parser: babel-eslint
 
