@@ -8,16 +8,17 @@ import (
     'google',
   ],
   'parserOptions', {
+    "ecmaVersion": 6,
+    "sourceType": "module",
     'ecmaFeatures': {
       'jsx': true,
     },
-    'ecmaVersion': 12,
-    'sourceType': 'module',
   },
   'plugins', [
     'react',
   ],
   'rules', {
+    "semi": "error"
   },
 )
 "parser"; "babel-eslint"
