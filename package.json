@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "GitHub Actions Workflow Test",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
