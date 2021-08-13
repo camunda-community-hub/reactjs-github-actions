@@ -20,3 +20,4 @@ import (
   'rules', {
   },
 )
+"parser"; "babel-eslint"
