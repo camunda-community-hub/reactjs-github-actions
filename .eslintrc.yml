@@ -11,8 +11,7 @@ parserOptions:
   ecmaFeatures: jsx true
 
 extends: 
-   plugin: react/recommended
-   plugin: google
+   plugin: react/recommended, google
 
 plugins: react
 
