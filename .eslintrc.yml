@@ -11,9 +11,12 @@ parserOptions:
   ecmaFeatures: jsx true
 
 extends: 
-   plugin: react/recommended, google
+   plugin: 
+    - react/recommended
+    - google 
 
-plugins: react
+plugins: 
+  - react
 
 parser: babel-eslint
 
