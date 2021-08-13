@@ -2,12 +2,25 @@ root: true
 
 env:
   node: true
+  browser: true
+  es2021: true
 
 parserOptions:
   ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures: jsx true
+
+extends: 
+   plugin: react/recommended
+   plugin: google
+
+plugins: react
+
+parser: babel-eslint
 
 rules:
   eol-last: error
+  semi: error
   eqeqeq: [error, allow-null]
   indent: [error, 2, { SwitchCase: 1 }]
   no-trailing-spaces: error
