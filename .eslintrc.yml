@@ -12,7 +12,6 @@ parserOptions:
 
 plugins: 
   - react
-  - google 
 
 parser: babel-eslint
 
