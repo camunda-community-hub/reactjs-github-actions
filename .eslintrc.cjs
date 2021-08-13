@@ -1,8 +1,7 @@
 import (
-  'env', {
-    'browser': true,
-    'es2021': true,
-  },
+  'env') ;
+    'browser'; true,
+    'es2021'; true,
   'extends', [
     'google',
   ],
@@ -18,5 +17,4 @@ import (
   ],
   'rules', {
   },
-)
 "parser"; "babel-eslint"
