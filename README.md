@@ -7,8 +7,7 @@
 ## Welcome! This project is being worked on as a part of the Camunda Summer Hackdays 2021 event. 
 
 ### Usage
-
-WIP. This project is intended to be a proof-of-concept for publishing ReactJS based community extensions to NPM automatically using GitHub Actions.
+This application was created for demo purposes only. This project is intended to be a proof-of-concept for publishing ReactJS based community extensions to NPM automatically using GitHub Actions.
 
 ### References:
 
